@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+ 
+}
+.main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border: lightgray 1px solid;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.main > div:nth-child(even) {
+  background-color: #e7e6e6;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.container:hover {
+  background-color: rgba(7, 5, 5, 0.2);
+  cursor: pointer;
+}
+
+.col1,
+.col2,
+.col3 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.col3 {
+  padding-right: 20%;
+}
+.col1 {
+  padding-left: 2%;
+}
+@media only screen and (max-width: 600px) {
+    .col1,
+.col2,
+.col3 {
+  font-size: small;
+}
+  }
