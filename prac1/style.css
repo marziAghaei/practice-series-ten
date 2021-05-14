@@ -1,0 +1,54 @@
+body{
+    font-size: small;
+}
+.main{  
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    text-align: right;
+}
+table.menu {
+    width: auto;
+    margin-right: 0px;
+    margin-left: auto;
+}
+option{
+    text-align: right;   
+}
+
+tbody >:nth-child(even){
+    background-color:#f8f9fa;
+}
+select{
+    float: right;
+}
+
+.output{
+    width: 95%;
+    height: 20%;
+    margin: 2% auto 2% auto;
+  
+}
+.output >:nth-child(1){
+    background-color: rgb(253, 218, 224);
+    height: 20%;
+    margin: 5px;
+    padding: 30px;
+text-align: center;
+}
+.output >:nth-child(2){
+    background-color: rgb(216, 241, 216);
+    height: 20%;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
+input { 
+    text-align: right; 
+}
+option{
+    text-align: right; 
+    align-content: right;
+}
